@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="../images/iconf.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio Landing Page</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive-style.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="75">
+    <header class="header-wrapper">
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="../images/logo.png" alt="logo" class="img-fluid" style="width: 80%;">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <!--<span class="navbar-toggler-icon"></span>-->
+                    <i class="fa-solid fa-bars-staggered"></i>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav menu-navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                        <li class="nav-item mt-3 mt-lg-0">
+                            <a class="main-btn" href="#contact">Hire me</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+          </nav>
+    </header>
+
+    <!---------------Banner section----------------->
+    <section id="home" class="banner-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center text-md-start">
+                    <h6 class="text-white-50 fs-6 d-block text-uppercase ls-5">Welcome to My Space</h6>
+                    <h1 class="text-light lh-sm fw-bolder mb-4">I'm El Amir <br><span>Web Designer.</span><br> Based in Senegal.</h1>
+                    <div class="mt-4">
+                        <a href="" class="main-btn">Download CV</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---------------About section---------------->
+    <section id="about" class="about-wrapper ">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-5 mb-lg-0">
+                    <img src="../images/about.png" class="img-fluid rounded-3" alt="About-us">
+                </div>
+                <div class="col-lg-7 ps-lg-5 text-center text-lg-start">
+                    <div class="my-3 mb-lg-0">
+                        <span class="subtitle">My About Details</span>
+                        <h2>About Me</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore numquam, asperiores fugit, cupiditate harum voluptatibus doloremque vitae alias unde tenetur rerum neque similique id consectetur ex sunt exercitationem natus itaque.</p>
+                    </div>
+                    <div class="pt-4">
+                        <ul class="nav nav-pills mb-3 justify-content-center justify-content-lg-between" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="pills-skill-tab" data-bs-toggle="pill" data-bs-target="#pills-skill" type="button" role="tab" aria-controls="pills-skill" aria-selected="true">Main Skill</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-realization-tab" data-bs-toggle="pill" data-bs-target="#pills-realization" type="button" role="tab" aria-controls="pills-realization" aria-selected="false">Realization</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-experience-tab" data-bs-toggle="pill" data-bs-target="#pills-experience" type="button" role="tab" aria-controls="pills-experience" aria-selected="false">Experience</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-education-tab" data-bs-toggle="pill" data-bs-target="#pills-education" type="button" role="tab" aria-controls="pills-education" aria-selected="false">Education</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-skill" role="tabpanel" aria-labelledby="pills-skill-tab">
+                                <div class="single-progress">
+                                    <h6 class="text-left">Designing</h6>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <span class="label position-absolute top-0 end-0 text-white-50">95%</span>
+                                </div>
+                                <div class="single-progress">
+                                    <h6 class="text-left">Programmation</h6>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <span class="label position-absolute top-0 end-0 text-white-50">75%</span>
+                                </div>
+                                <div class="single-progress">
+                                    <h6 class="text-left">Management</h6>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <span class="label position-absolute top-0 end-0 text-white-50">85%</span>
+                                </div>
+                                <div class="single-progress">
+                                    <h6 class="text-left">Team Work</h6>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <span class="label position-absolute top-0 end-0 text-white-50">80%</span>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="pills-realization" role="tabpanel" aria-labelledby="pills-realization-tab">
+                                <ul class="text-start ps-0">
+                                    <li class="text-white-50 mb-4 fw-light list-unstyled">
+                                        <a href="#" class="fw-bold d-block text-white-50">realization.com
+                                            <span>- Winner</span>
+                                        </a> 2022-2023
+                                    </li>
+                                    <li class="text-white-50 mb-4 fw-light list-unstyled">
+                                        <a href="#" class="fw-bold d-block text-white-50">Photoshop Deigner Awards
+                                            <span>- Winner</span>
+                                        </a> 2021-2022
+                                    </li>
+                                    <li class="text-white-50 mb-4 fw-light list-unstyled">
+                                        <a href="#" class="fw-bold d-block text-white-50">Photograph nominees
+                                            <span>- Picture of the day</span>
+                                        </a> 2022-2023
+                                    </li>
+                                    <li class="text-white-50 mb-4 fw-light list-unstyled">
+                                        <a href="#" class="fw-bold d-block text-white-50">inspiration.com
+                                            <span>- Winner</span>
+                                        </a> 2022-2023
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tab-pane fade" id="pills-experience" role="tabpanel" aria-labelledby="pills-experience-tab">
+                                <ul class="text-start ps-0">
+                                    <li class="text-white-50 mb-4 fw-light list-unstyled">
+                                        <a href="#" class="fw-bold d-block text-white-50">HTML-CSS Web Developer
+                                            <span>- Bakeli</span>
+                                        </a>2022- Current
+                                    </li>
+                                    <li class="text-white-50 mb-4 fw-light list-unstyled">
+                                        <a href="#" class="fw-bold d-block text-white-50">Graphic Designer
+                                            <span>- CDA UCAD</span>
+                                        </a>2022- Current
+                                    </li>
+                                    <li class="text-white-50 mb-4 fw-light list-unstyled">
+                                        <a href="#" class="fw-bold d-block text-white-50">Video Editor
+                                            <span>- SenMov</span>
+                                        </a>2021- 2022
+                                    </li>
+                                    <li class="text-white-50 mb-4 fw-light list-unstyled">
+                                        <a href="#" class="fw-bold d-block text-white-50">Visual Manager
+                                            <span>- Al- Kadiory</span>
+                                        </a>2022- Current
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tab-pane fade" id="pills-education" role="tabpanel" aria-labelledby="pills-education-tab">
+                                <ul class="text-start ps-0">
+                                    <li class="text-white-50 mb-4 fw-light list-unstyled">
+                                        <a href="#" class="fw-bold d-block text-white-50">Web Developper
+                                            <span>- Bakeli</span>
+                                        </a>2022- Current
+                                    </li>
+                                    <li class="text-white-50 mb-4 fw-light list-unstyled">
+                                        <a href="#" class="fw-bold d-block text-white-50">Graphic Designer
+                                            <span>- SC Design</span>
+                                        </a>2018- 2020
+                                    </li>
+                                    <li class="text-white-50 mb-4 fw-light list-unstyled">
+                                        <a href="#" class="fw-bold d-block text-white-50">Video Editor
+                                            <span>- Vi-Tech</span>
+                                        </a>2019- 2022
+                                    </li>
+                                    <li class="text-white-50 mb-4 fw-light list-unstyled">
+                                        <a href="#" class="fw-bold d-block text-white-50">Visual edition
+                                            <span>- Studio of Visual</span>
+                                        </a>2020- Current
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---------------service section---------------->
+    <section id="services" class="services-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center mb-4">
+                    <span class="subtitle">What I can do for you?</span>
+                    <h2>My Awesome service</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus odit accusamus sequi aliquid quo repellat <br class="d-none d-md-block">
+                         ullam iusto libero deserunt reprehenderit dolores cupiditate quae, nihil doloremque, dicta eum consequatur officiis.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-md-start text-center">
+                            <img src="../images/service1.svg" alt="services" class="img-fluid mb-4">
+                            <h3>Video Editing</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis doloribus possimus dolore quia quos repellendus.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-md-start text-center">
+                            <img src="../images/service2.svg" alt="services" class="img-fluid mb-4">
+                            <h3>Dev. Web Courses</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis doloribus possimus dolore quia quos repellendus.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-md-start text-center">
+                            <img src="../images/service3.svg" alt="services" class="img-fluid mb-4">
+                            <h3>Painting</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis doloribus possimus dolore quia quos repellendus.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-md-start text-center">
+                            <img src="../images/service4.svg" alt="services" class="img-fluid mb-4">
+                            <h3>Video Editing</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis doloribus possimus dolore quia quos repellendus.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-md-start text-center">
+                            <img src="../images/service5.svg" alt="services" class="img-fluid mb-4">
+                            <h3>Blog Management</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis doloribus possimus dolore quia quos repellendus.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-md-start text-center">
+                            <img src="../images/service6.svg" alt="services" class="img-fluid mb-4">
+                            <h3>Website creation</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis doloribus possimus dolore quia quos repellendus.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---------------portfolio section---------------->
+    <section id="portfolio" class="portfolio-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center mb-4">
+                    <span class="subtitle">My complete project</span>
+                    <h2>My latest project</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus odit accusamus sequi aliquid quo repellat <br class="d-none d-md-block">
+                        ullam iusto libero deserunt reprehenderit dolores cupiditate quae, nihil doloremque, dicta eum consequatur officiis.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-sm-6 mb-4">
+                    <div class="card p-0 h-100 overflow-hidden border border-light shadow" style="min-height: 350px;">
+                        <span style="background-image: url(../images/portfolio/1.png); background-size: cover; cursor: pointer;" class="h-100 w-100"></span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-4">
+                    <div class="card p-0 h-100 overflow-hidden border border-light shadow" style="min-height: 350px;">
+                        <span style="background-image: url(../images/portfolio/2.jpg); background-size: cover; cursor: pointer;" class="h-100 w-100"></span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-4">
+                    <div class="card p-0 h-100 overflow-hidden border border-light shadow" style="min-height: 350px;">
+                        <span style="background-image: url(../images/portfolio/3.jpg); background-size: cover; cursor: pointer;" class="h-100 w-100"></span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-4">
+                    <div class="card p-0 h-100 overflow-hidden border border-light shadow" style="min-height: 350px;">
+                        <span style="background-image: url(../images/portfolio/4.jpg); background-size: cover; cursor: pointer;" class="h-100 w-100"></span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-4">
+                    <div class="card p-0 h-100 overflow-hidden border border-light shadow" style="min-height: 350px;">
+                        <span style="background-image: url(../images/portfolio/5.jpg); background-size: cover; cursor: pointer;" class="h-100 w-100"></span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-4">
+                    <div class="card p-0 h-100 overflow-hidden border border-light shadow" style="min-height: 350px;">
+                        <span style="background-image: url(../images/portfolio/6.jpg); background-size: cover; cursor: pointer;" class="h-100 w-100"></span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-4">
+                    <div class="card p-0 h-100 overflow-hidden border border-light shadow" style="min-height: 350px;">
+                        <span style="background-image: url(../images/portfolio/7.jpg); background-size: cover; cursor: pointer;" class="h-100 w-100"></span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-4">
+                    <div class="card p-0 h-100 overflow-hidden border border-light shadow" style="min-height: 350px;">
+                        <span style="background-image: url(../images/portfolio/8.jpg); background-size: cover; cursor: pointer;" class="h-100 w-100"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---------------contact section---------------->
+    <section id="contact" class="contact-wrapper">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-6 order-2 order-lg-1 pe-lg-5 text-lg-start text-center">
+                    <span class="subtitle">Let's take a cup of coffee</span>
+                <h2>Hire Me.</h2>
+                <div class="row text-white-50 mb-4">
+                    <label class="col-sm-3 col-lg-4 text-md-start">Call us</label>
+                    <div class="col-sm-9 col-lg-8 mb-3 mb-lg-2 text-md-start">
+                        <a href="javascript:void(0)" class="fw-bold text-light">+221 33-123-45-67</a>
+                    </div>
+                    <label class="col-sm-3 col-lg-4 text-md-start">Send an Email:</label>
+                    <div class="col-sm-9 col-lg-8 mb-3 mb-lg-2 text-md-start">
+                        <a href="mailexemple:example@xyz.com" class="fw-bold text-light">example@gmail.com</a>
+                    </div>
+                </div>
+                <form>
+                    <div class="mb-4">
+                        <input type="text" class="form-control bg-transparent text-light fw-normal py-2 px-4" placeholder="Your Name..."
+                        autocomplete="off">
+                    </div>
+                    <div class="mb-4">
+                        <input type="number" class="form-control bg-transparent text-light fw-normal py-2 px-4" placeholder="Your Phone Number..."
+                        autocomplete="off">
+                    </div>
+                    <div class="mb-4">
+                        <input type="email" class="form-control bg-transparent text-light fw-normal py-2 px-4" placeholder="Your email..."
+                        autocomplete="off">
+                    </div>
+                    <div class="mb-4">
+                        <textarea cols="40" rows="4" class="form-control bg-transparent text-light fw-normal py-2 px-4" id="message" placeholder="Your message..." autocomplete="off">
+                            
+                        </textarea>
+                    </div>
+                    <button type="submit" class="main-btn">Submit</button>
+                </form>
+                </div>
+                <div class="col-lg-6 order-1 mb-4 order-lg-1 mb-lg-0">
+                    <img src="../images/contact.png" alt="contact" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!----------------footer section------------------>
+    <section id="contact" class="footer-wrapper mt-3 mt-md-0 py-4">
+        <div class="container">
+            <div class="row align-items-center text-center">
+                <div class="col-lg-4 col-md-6 text-center text-md-start">
+                    <div class="footer-logo mb-3 mb-md-0">
+                        <img src="../images/logo.png" alt="logo" class="img-fluid" style="width: 30%;">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <ul class="list-unstyled d-flex justify-content-between justify-content-md-end justify-content-lg-center social-icon mb-3 mb-md-0">
+                        <li class="m-1">
+                            <a href="#" class="fs-5 d-inline-block border border-secondary text-secondary text-center rounded-circle"><i class="fa-brands fa-instagram"></i></a>
+                        </li>
+                        <li class="m-1">
+                            <a href="#" class="fs-5 d-inline-block border border-secondary text-secondary text-center rounded-circle"><i class="fa-brands fa-facebook"></i></a>
+                        </li>
+                        <li class="m-1">
+                            <a href="#" class="fs-5 d-inline-block border border-secondary text-secondary text-center rounded-circle"><i class="fa-brands fa-twitter"></i></a>
+                        </li>
+                        <li class="m-1">
+                            <a href="#" class="fs-5 d-inline-block border border-secondary text-secondary text-center rounded-circle"><i class="fa-brands fa-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="copyright-text text-lg-start text-center mb-3 mb-lg-0">
+                        <p class="mb-0 lh-sm">Copyright © 2023 <a href="#" class="text-success">Amir</a>. All Rights Reserved</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js" integrity="sha512-6UofPqm0QupIL0kzS/UIzekR73/luZdC6i/kXDbWnLOJoqwklBK6519iUnShaYceJ0y4FaiPtX/hRnV/X/xlUQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.3/js/bootstrap.min.js" integrity="sha512-1/RvZTcCDEUjY/CypiMz+iqqtaoQfAITmNSJY17Myp4Ms5mdxPS5UV7iOfdZoxcGhzFbOm6sntTKJppjvuhg4g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="main.js"></script>
+</body>
+</html>
